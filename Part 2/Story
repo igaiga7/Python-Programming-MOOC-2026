@@ -1,0 +1,12 @@
+sentence = ""
+word1 = ""
+while True:
+    word = input("Please type in a word: ")
+    if word == "end":
+        break 
+    elif word == word1:
+        break
+    sentence += word + " "
+    word1 = word
+
+print(sentence)

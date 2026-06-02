@@ -1,0 +1,14 @@
+pin = 4321
+attempts = 0
+
+while True:
+    passcode = int(input("PIN: "))
+    attempts += 1
+    if passcode != 4321:
+        print("Wrong")
+    else:
+        break
+if attempts == 1:
+    print("Correct! It only took you one single attempt!")
+else:
+    print(f"Correct! It took you {attempts} attempts")

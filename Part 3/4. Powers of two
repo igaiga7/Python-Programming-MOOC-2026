@@ -1,0 +1,9 @@
+number = 2
+power = 0
+
+limit = int(input("Upper limit: "))
+
+while number ** power <= limit:
+    print(number ** power)
+    power += 1
+    

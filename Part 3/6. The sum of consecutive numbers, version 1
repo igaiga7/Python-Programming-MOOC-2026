@@ -1,0 +1,9 @@
+number = 0 
+addend = 1
+
+limit = int(input("Limit: "))
+while number < limit:
+    number += addend 
+    addend += 1
+
+print(number)

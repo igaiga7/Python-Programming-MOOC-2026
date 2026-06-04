@@ -1,0 +1,7 @@
+string = str(input("Please type in a string: "))
+length = len(string)
+length = -length
+index = -1
+while index >= length:
+    print(string[index])
+    index -= 1

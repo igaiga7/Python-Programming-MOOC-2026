@@ -1,0 +1,14 @@
+limit = int(input("Limit: "))
+number = 0
+addend = 1
+consec_sum = ""
+
+while number < limit:
+    number += addend
+    if number < limit:
+        consec_sum += str(addend) + " + "
+    else: 
+        consec_sum += str(addend) + " = "
+    addend += 1
+
+print(f"The consecutive sum: {consec_sum}{number}")

@@ -1,0 +1,14 @@
+word = str(input("Word: "))
+#top and bottom frame is 30 characters long
+frame = 30 
+
+#how much space is left around the word?
+space = frame - 2 - len(word)
+left_side = space // 2
+right_side = space - left_side
+
+center = "*" + " "*left_side + word + " "*right_side + "*"
+#print the word and frame 
+print("*" * frame)
+print(center)
+print("*" * frame)

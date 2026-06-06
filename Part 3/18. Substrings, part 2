@@ -1,0 +1,7 @@
+string = str(input("Please type in a string: "))
+
+letters = -1
+
+while letters >= -len(string):
+    print(string[letters:])
+    letters -= 1
